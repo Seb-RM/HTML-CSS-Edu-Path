@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--color-950);
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    color: var(--color-main);
+}
+
+.logo__icon {
+    font-size: 6rem;
+}
+
+.logo__text {
+    font-size: 3rem;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-weight: 400;
+}
+
