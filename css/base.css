@@ -62,3 +62,33 @@ a {
     color: var(--color-900);
     font-weight: 500;
 }
+
+/*				Utilidades
+==============================================*/
+
+[class$="__container"] {
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+[class$="__title2"] {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 1rem;
+}
+
+@media (mind-width: 992px) {
+    [class$="__title2"] {
+        font-size: 4.5rem;
+    }
+}
+
+[class$="__title2-color"] {
+    color: var(--color-main);
+}
+
+[class$="__desc1"] {
+    text-align: center;
+    color: var(--color-600);
+}
