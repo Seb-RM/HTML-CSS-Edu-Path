@@ -1,0 +1,67 @@
+.plans {
+    padding: 4rem 0;
+}
+
+.plans__container {
+    margin-top: 3rem;
+    padding: 1rem 4rem;
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .plans__container {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
+}
+
+@media (min-width: 1200px) {
+    .plans__container {
+        padding: 6rem 4rem;
+    }
+}
+
+.plan {
+    background-color: var(--color-200);
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+    display: grid;
+    align-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.plan__title {
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.plan__price {
+    margin: 1re 9;
+    font-size: 2.2rem;
+    font-weight: 500;
+    color: var(--color-700);
+}
+
+.plan__billing {
+    margin: 0;
+    color: var(--color-500);
+}
+
+.plan__features {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    gap: 1rem;
+}
+
+.plan__feature{
+    display: flex;
+    align-items: center;
+}
+
+.plan__feature--disabled {
+    color: var(--color-500);
+}
+
